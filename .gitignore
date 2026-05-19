@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+env/
+venv/
+.venv/
+*.env
+*.ipynb_checkpoints
+
+# Data files
+*.tsv
+*.parquet
+*.xlsx
+*.xls
+*.json
+*.h5
+*.db
+*.sqlite
+
+# Logs
+*.log
+
+# Output folders
+
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Keep reproducible project artifacts tracked
+!modeling_example.ipynb
+!exploratory_data:analysis.ipynb
+!analytics_project_jupyter_draft.ipynb
+!data/train_sample.csv
+!data/items_sample.csv
+!model_sample.csv
+!data/processed/EDA/
+!data/processed/EDA/**
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+
+.DS_Store
+**/.DS_Store
+data/raw/train.csv
+data/raw/items.csv
+
+# Output folders
+# data/processed/
+# reports/figures/
+
+# Common caches, test and CI artifacts
+.pytest_cache/
+.coverage
+.mypy_cache/
+.cache/
+
+# Model artifacts and outputs
+models/
+artifacts/
+outputs/
+logs/
+
+# Notebooks and editor artifacts
+notebooks/
+
+# Local env helpers
+.env.local
+.envrc
+
+# Final files
+src/classification_task.ipynb
+classification_task.ipynb
+src/regression_task.ipynb
+regression_task.ipynbsrc/classification_task.ipynb
+src/regression_task.ipynb

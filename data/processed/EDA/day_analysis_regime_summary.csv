@@ -1,0 +1,4 @@
+regime,start_day,end_day,n_days,total_events,orders,weighted_order_rate
+pre_break,1,31,31,723274,238858,0.3302455224437765
+transition_week,32,38,7,240927,55062,0.22854225553798455
+post_break,39,92,54,1791802,411170,0.22947289934937007

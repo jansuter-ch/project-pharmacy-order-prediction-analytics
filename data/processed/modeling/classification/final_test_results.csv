@@ -1,0 +1,4 @@
+model,best_params,cv_auc,threshold,test_auc,test_f1
+DecisionTree,"{'max_depth': 5, 'min_samples_leaf': 80}",0.7212314183042811,0.47859786369543766,0.7143808254728887,0.4857498571400636
+RandomForest,"{'n_estimators': 149, 'max_depth': 10, 'min_samples_leaf': 111, 'max_features': 'sqrt'}",0.7220863102367985,0.48162679295493555,0.7128135922897205,0.4856631182301757
+XGBoost,"{'n_estimators': 741, 'max_depth': 4, 'learning_rate': 0.012469859847424523, 'subsample': 0.5013119303201923, 'colsample_bytree': 0.9745936681186836, 'colsample_bylevel': 0.9697020781547827, 'min_child_weight': 10, 'reg_lambda': 0.3446904036610164, 'reg_alpha': 0.4335343163035796, 'max_delta_step': 4}",0.7293597549474603,0.5251013040542603,0.718759942443623,0.48687127499582245
